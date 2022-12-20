@@ -42,7 +42,9 @@
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
 	/* Previous dates: '2022/06/20'*/
-	$('#mu-event-counter').countdown('2023/02/07').on('update.countdown', function(event) {
+        var countDownDate = new Date("Feb 07, 2023 08:30:00").getTime();
+        countDownDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
+	$('#mu-event-counter').countdown(countDownDate).on('update.countdown', function(event) {
 	  var $this = $(this).html(event.strftime(''
 	    + '<span class="mu-event-counter-block"><span>%D</span> Days</span> '
 	    + '<span class="mu-event-counter-block"><span>%H</span> Hours</span> '
