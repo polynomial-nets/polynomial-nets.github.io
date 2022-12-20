@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Polynomial nets in deep learning architectures</title>
-    <meta name="description" content="AAAI 2023 tutorial on polynomial nets">
-    <meta name="keywords" content="AAAI'23, polynomial nets, image generation, image recognition">
+    <title>High-degree polynomial networks for image generation and recognition</title>
+    <meta name="description" content="CVPR 2022 tutorial on polynomial nets">
+    <meta name="keywords" content="CVPR'22, polynomial nets, image generation, image recognition">
     <!-- Favicon -->
-    <!--<link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!--<link rel="shortcut icon" type="image/icon" href="../assets/images/favicon.ico"/>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Slick slider -->
-    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="../assets/css/slick.css" rel="stylesheet">
     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+    <link id="switcher" href="../assets/css/theme-color/default-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
 
     <!-- Fonts -->
 
@@ -61,7 +61,7 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
- <!--<li><img src="assets/images/logo_.png" width=90 style="margin:0px 0px;padding:0px 0px"></li>-->
+ <!--<li><img src="../assets/images/logo_.png" width=90 style="margin:0px 0px;padding:0px 0px"></li>-->
 				        <li><a href="#mu-about">Overview</a></li>
 				        <li><a href="#mu-schedule">Schedule</a></li>
 
@@ -85,8 +85,7 @@
 							<!-- text based logo -->
 							<!--<a class="mu-logo" href="#"></a>-->
 							<!-- image based logo -->
-							<!--<a class="mu-logo" href="https://iclr.cc/Conferences/2019/Schedule?showEvent=633"><img src="assets/images/logo_.png" alt="logo img"></a> -->
-							<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzhwN21zZXZnMGtmbmlmbHVydWFyMnE5b3Qga2JlNWtkN2x0bDgwdXVpOTFsMjAzaDJ0cnNAZw&tmsrc=kbe5kd7ltl80uui91l203h2trs%40group.calendar.google.com"><img border="0" ><button type="button" class="btn btn-secondary btn-lg" ><i class="fa fa-calendar"></i> Add event to Google Calendar</button></a>
+							<!--<a class="mu-logo" href="https://iclr.cc/Conferences/2019/Schedule?showEvent=633"><img src="../assets/images/logo_.png" alt="logo img"></a> -->
 
 						</div>
 						<!-- End center Logo -->
@@ -94,10 +93,10 @@
 						<div class="mu-hero-featured-content">
 
 							<h1>
-Tutorial on polynomial nets in deep learning architectures</h1>
-							<p class="mu-event-date-line">7 February 2023; 8.30 am EST (Eastern Standard Time). AAAI 2023, Washington, DC.</p>
+Tutorial on high-degree polynomial networks</h1>
+							<p class="mu-event-date-line">20 June 2022; 1.30 pm CDT. New Orleans, USA</p>
 
-							<div class="mu-event-counter-area"> <div id="mu-event-counter"></div> --><!-- Countdown feature--> 
+							<!--<div class="mu-event-counter-area"> <div id="mu-event-counter"></div> --><!-- Countdown feature; disabling since it is causing confusion.--> 
 							</div>
 
 						</div>
@@ -123,7 +122,7 @@ Tutorial on polynomial nets in deep learning architectures</h1>
 <!--
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="assets/images/about.jpg" alt="Men Speaker">
+										<img class="" src="../assets/images/about.jpg" alt="Men Speaker">
 									</div>
 								</div>
 -->
@@ -131,7 +130,9 @@ Tutorial on polynomial nets in deep learning architectures</h1>
 								<div class="mu-about-right">-->
 
 										<h2>News</h2>
-<p> December 2022: The site of the previous version of the tutorial (along with the respective material) can be found in this <a href="previous_versions/index.html">link</a>.</p>
+<p> August 2022: We have released the slides used in the tutorial. Link: <a href="https://www.slideshare.net/GrigorisChrysos/tutorial-on-polynomial-networks-at-cvpr22">https://www.slideshare.net/GrigorisChrysos/tutorial-on-polynomial-networks-at-cvpr22</a>.</p>
+
+<p> July 2022: As part of the tutorial, we have released the source code for demo examples on how to use polynomial nets. Link: <a href="https://github.com/polynomial-nets/tutorial-2022-intro-polynomial-nets"> https://github.com/polynomial-nets/tutorial-2022-intro-polynomial-nets</a>.</p>
 
 										<h2>Overview</h2>
 
@@ -182,32 +183,32 @@ are not widely acknowledged for their role in modern deep learning.</p>
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">8.30 AM</p>
+								    				<p class="mu-event-time">1.30 PM</p>
 								    				<h3>Introduction</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">10.15 AM</p>
+								    				<p class="mu-event-time">2.15 PM</p>
 								    				<h3>Break</h3>
 
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">10.20 AM</p>
+								    				<p class="mu-event-time">2.20 PM</p>
 								    				<h3>Higher-degree polynomials</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">11.30 AM</p>
+								    				<p class="mu-event-time">3.30 PM</p>
 								    				<h3>Break</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">11.40 AM</p>
+								    				<p class="mu-event-time">3.40 PM</p>
 								    				<h3>Recognition and generation with polynomial nets</h3>
 								    			</div>
 								    		</li>
@@ -238,15 +239,15 @@ are not widely acknowledged for their role in modern deep learning.</p>
 
 					<div class="col-md-6">
 						<div class="mu-venue-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.8352000346144!2d-77.02518208455075!3d38.90488377956955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7ed3715b137%3A0x32771de147fa5350!2sWalter%20E.%20Washington%20Convention%20Center!5e0!3m2!1sen!2sgr!4v1671528529244!5m2!1sen!2sgr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.5116330988362!2d-90.06561938477759!3d29.935958781921855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66e2c49ba7f%3A0x185d4d6c82fa192f!2sNew%20Orleans%20Ernest%20N.%20Morial%20Convention%20Center!5e0!3m2!1sen!2sch!4v1650822909224!5m2!1sen!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="mu-venue-address">
 							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-							<h3>AAAI 2023, Washington, DC, USA</h3>
-							<h4>Walter E. Washington Convention Center, Mount Vernon Place Northwest  </h4>
+							<h3>CVPR 2022, New Orleans, Louisiana</h3>
+							<h4>Ernest N. Morial Convention Center, New Orleans </h4>
 						</div>
 					</div>
 
@@ -284,7 +285,7 @@ are not widely acknowledged for their role in modern deep learning.</p>
 							          </div>
 							          <div id="collapseThree" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Following the guidelines of AAAI, this tutorial will take place on 7th February. You should register for the AAAI conference.
+							              Following the guidelines of CVPR, this tutorial will take place on 20th June. You should register for the CVPR conference.
 							            </div>
 							          </div>
 							        </div>
@@ -346,7 +347,7 @@ are not widely acknowledged for their role in modern deep learning.</p>
 
 									<!-- Start single organizer -->
 									<div class="mu-single-organizer">
-										<a href="https://grigorisg9gr.github.io"><center><img src="assets/images/grigoris_cropped.jpg" alt="organizer img"  height="200px"></center></a>
+										<a href="https://grigorisg9gr.github.io"><center><img src="../assets/images/grigoris_cropped.jpg" alt="organizer img"  height="200px"></center></a>
 										<div class="mu-single-organizer-info">
 											<h3><a href="https://grigorisg9gr.github.io">Grigorios Chrysos</a></h3>
 											<p>EPFL</p>
@@ -358,7 +359,7 @@ are not widely acknowledged for their role in modern deep learning.</p>
 
 									<!-- Start single organizer -->
 									<div class="mu-single-organizer">
-										<a href=""><center><img src="assets/images/markos.JPG" alt="organizer img"  height="200px"></center></a>
+										<a href=""><center><img src="../assets/images/markos.JPG" alt="organizer img"  height="200px"></center></a>
 										<div class="mu-single-organizer-info">
 											<h3>Markos Georgopoulos</h3>
 											<p>Imperial College London</p>
@@ -369,7 +370,7 @@ are not widely acknowledged for their role in modern deep learning.</p>
 
 									<!-- Start single organizer -->
 									<div class="mu-single-organizer">
-										<a href="https://sites.google.com/view/razp"><center><img src="assets/images/razvan.jpg" alt="organizer img"  height="200px"></center></a>
+										<a href="https://sites.google.com/view/razp"><center><img src="../assets/images/razvan.jpg" alt="organizer img"  height="200px"></center></a>
 										<div class="mu-single-organizer-info">
 											<h3><a href="https://sites.google.com/view/razp">Razvan Pascanu</a></h3>
 											<p>Deepmind</p>
@@ -429,14 +430,14 @@ are not widely acknowledged for their role in modern deep learning.</p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 	<!-- Slick slider -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
     <!-- Event Counter -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.countdown.min.js"></script>
 
     <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="../assets/js/custom.js"></script>
 
 
   </body>
